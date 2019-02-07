@@ -8,7 +8,7 @@ Prepare the environment:
 
 ```virtualenv  .venv```
 ```source .venv/bin/activate```
-```cd mock_app```
+```cd app```
 ```pip install -r requirements.txt```
 
 ## Running the application in docker
