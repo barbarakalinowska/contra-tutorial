@@ -7,8 +7,11 @@ The aim of the application is to process a set of SAM files resulting from the C
 Prepare the environment:
 
 ```virtualenv  .venv```
+
 ```source .venv/bin/activate```
+
 ```cd mock_app```
+
 ```pip install -r requirements.txt```
 
 ## Running the application in docker
@@ -19,6 +22,7 @@ Build the docker image:
 Please note that the Dockerfile copies one file from `app` directory, so this path needs to be updated if the requirements.txt file is located in a different place.
 
 Run the container with the app included:
+
 ```docker run -it --rm -v <path to the folder with app and data>:/tutorial contra-python bash ```
 
 
